@@ -120,17 +120,18 @@ body {
 @media (max-width: 730px) {
   .header__conteiner {
     justify-content: left;
-    gap: 100px;
+    gap: 40px;
     margin-left: 40px;
   }
   .header__links {
     position: absolute;
     top: 150px;
+    gap: 35px;
   }
   .page__clouds {
     position: absolute;
     top: 150px;
-    left: 88px;
+    left: 53px;
   }
 }
 
