@@ -54,7 +54,7 @@ body {
   display: flex;
 }
 .header__links {
-  color: rgb(112, 40, 134);
+  color: black;
   display: flex;
   font-weight: bold;
   column-gap: 95px;
@@ -62,7 +62,7 @@ body {
 }
 
 .header__links-adult {
-  color: rgb(112, 40, 134);
+  color: black;
   border-radius: 50px;
   padding: 5px 10px;
   background-color: white;
@@ -75,7 +75,7 @@ body {
   transition: 0.8s;
 }
 .header__links-kid {
-  color: rgb(112, 40, 134);
+  color: black;
   border-radius: 50px;
   padding: 5px 10px;
   background-color: white;
@@ -89,27 +89,27 @@ body {
 }
 
 .header__comunity {
-  color: rgb(112, 40, 134);
+  color: black;
   display: flex;
   gap: 50px;
   font-weight: bold;
   font-size: 20px;
 }
 .header__comunity-cabinet {
-  color: rgb(112, 40, 134);
+  color: black;
 }
 
 .header__comunity-lang {
 }
 .header__comunity-ua {
-  color: rgb(112, 40, 134);
+  color: black;
 }
 
 .header__comunity-ua::after {
   content: ' | ';
 }
 .header__comunity-en {
-  color: rgb(112, 40, 134);
+  color: black;
 }
 
 @media (max-width: 1042px) {
