@@ -325,6 +325,23 @@ body {
   cursor: pointer;
 }
 
+@media (max-width: 1042px) {
+  .select {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media (max-width: 740px) {
+  .select {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media (max-width: 370px) {
+  .select {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
 /* ---------------------------------------------------------------------------------------------- */
 
 /* ------------------------------------------Store---------------------------------------------------- */
@@ -361,6 +378,30 @@ body {
   font-size: 18px;
   font-weight: bold;
 }
+
+@media (max-width: 1080px) {
+  .main__store {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+@media (max-width: 870px) {
+  .main__store {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media (max-width: 740px) {
+  .main__conteiner {
+    padding-top: 360px;
+  }
+}
+
+@media (max-width: 650px) {
+  .main__store {
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+  }
+}
+
 /* ---------------------------------------------------------------------------------------------- */
 
 /* --------------------------------------Footer--------------------------------------------------- */
