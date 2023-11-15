@@ -427,17 +427,21 @@ body {
   .main__store {
     grid-template-columns: repeat(1, auto);
     justify-content: center;
-    padding: 14px 30px;
+    padding: 14px 28px;
   }
   .main__conteiner {
     gap: 4px;
   }
   .store__item img {
-    height: 120px;
-    width: 140px;
+    height: 100px;
+    width: 120px;
   }
 }
-
+@media (max-width: 320px) {
+  .main__store {
+    padding: 14px 10px;
+  }
+}
 /* ---------------------------------------------------------------------------------------------- */
 
 /* --------------------------------------Footer--------------------------------------------------- */
