@@ -117,6 +117,22 @@ body {
     justify-content: space-around;
   }
 }
+@media (max-width: 730px) {
+  .header__conteiner {
+    justify-content: left;
+    gap: 100px;
+    margin-left: 40px;
+  }
+  .header__links {
+    position: absolute;
+    top: 150px;
+  }
+  .page__clouds {
+    position: absolute;
+    top: 150px;
+    left: 88px;
+  }
+}
 
 /* ---------------------------------------------------------------------------------------------- */
 
