@@ -44,12 +44,13 @@ body {
   display: flex;
   max-width: 1230px;
   margin: 0 auto;
-  gap: 318px;
+  justify-content: space-between;
   align-items: center;
   min-height: 110px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
 .header__logo {
   display: flex;
 }
@@ -104,7 +105,13 @@ body {
 }
 .header__comunity-en {
 }
-/* 1124px */
+
+@media (max-width: 1042px) {
+  .header__conteiner {
+    justify-content: space-around;
+  }
+}
+
 /* ---------------------------------------------------------------------------------------------- */
 
 /* ------------------------------------Clouds-------------------------------------------------- */
@@ -207,4 +214,5 @@ body {
     transform: translate(-30%, 0px);
   }
 }
+
 /* ---------------------------------------------------------------------------------------------- */
