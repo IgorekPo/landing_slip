@@ -12,6 +12,10 @@
   min-height: 100%;
   display: flex;
   margin: 0 auto;
+  flex-direction: column;
+}
+.wrapper .main {
+  flex: 1 1 auto;
 }
 
 html,
@@ -30,13 +34,17 @@ body {
 [class*='__conteiner'] {
   max-width: 1230px;
   margin: 0 auto;
+  padding: 0px 15px;
+}
+.page {
+  flex: 1 1 auto;
 }
 
 /* ---------------------------------------------------------------------------------------------- */
 
 /* ---------------------------------Header------------------------------------------------------- */
 .header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 50;
@@ -155,7 +163,7 @@ body {
   width: 100%;
   margin-top: 50px;
   margin-left: -65px;
-  position: fixed;
+  position: absolute;
 }
 .page__clouds {
   display: flex;
@@ -266,6 +274,98 @@ body {
     position: absolute;
     top: 150px;
   }
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+.main__conteiner {
+  padding-top: 300px;
+  display: flex;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+
+/* ------------------------------------------Sidebar---------------------------------------------------- */
+.sidebar__page {
+  position: relative;
+  flex: 0 1 30%;
+  background-color: rgba(112, 40, 134, 0.226);
+}
+.sidebar__bloks {
+  width: 100%;
+  padding: 10px;
+}
+.sidebar__blok {
+  display: grid;
+}
+.sidebar__blok h2 {
+  display: grid;
+  justify-content: center;
+}
+.sidebar__blok:not(:last-child) {
+  padding-bottom: 30px;
+}
+
+.select {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.button button {
+  color: white;
+  padding: 5px 20px;
+  background-color: black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+/* ------------------------------------------Store---------------------------------------------------- */
+.main__store {
+  display: block;
+  flex: 0 1 70%;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 50px;
+  background-color: rgba(112, 40, 134, 0.226);
+  padding: 15px 18.5px;
+}
+
+.store__item {
+  display: grid;
+}
+.store__item a {
+  padding-bottom: 12px;
+  color: black;
+  font-size: 20px;
+}
+
+.store__item img {
+  text-align: center;
+  height: 150px;
+  width: 180px;
+  transition: 0.8s;
+}
+.store__item img:hover {
+  transform: scale(1.2);
+  transition: 0.8s;
+}
+.price {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* ---------------------------------------------------------------------------------------------- */
+
+/* --------------------------------------Footer--------------------------------------------------- */
+
+.footer {
 }
 
 /* ---------------------------------------------------------------------------------------------- */
