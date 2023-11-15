@@ -54,6 +54,7 @@ body {
   display: flex;
 }
 .header__links {
+  color: rgb(112, 40, 134);
   display: flex;
   font-weight: bold;
   column-gap: 95px;
@@ -95,17 +96,20 @@ body {
   font-size: 20px;
 }
 .header__comunity-cabinet {
+  color: rgb(112, 40, 134);
 }
 
 .header__comunity-lang {
 }
 .header__comunity-ua {
+  color: rgb(112, 40, 134);
 }
 
 .header__comunity-ua::after {
   content: ' | ';
 }
 .header__comunity-en {
+  color: rgb(112, 40, 134);
 }
 
 @media (max-width: 1042px) {
